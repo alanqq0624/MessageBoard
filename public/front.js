@@ -9,7 +9,7 @@ $(document).ready(function () {
             },
             success: function (receive) {
                 var time = new Date();
-                $("#board").append("<p>"+time.getMinutes() + ":" + time.getSeconds() + " " +receive+"</p>");
+                $("#board").append("<p>"+time.getFullYear()+"/"+time.getMonth()+"/"+time.getDay()+" "+time.getHours()+":"+time.getMinutes() + ":" + time.getSeconds() + " " +receive+"</p>");
                 document.querySelector('#board p:last-of-type').scrollIntoViewIfNeeded();
             }
         })
