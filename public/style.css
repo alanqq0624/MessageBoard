@@ -1,0 +1,17 @@
+#board{
+    width: 50vmax;
+    height: 70vh;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+input{
+    width: 45vmax;
+}
+#submit{
+    width: 5vmax;
+}
+p{
+    margin: 0px;
+    border: 1px solid red;
+}
