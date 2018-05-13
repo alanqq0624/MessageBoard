@@ -15,6 +15,6 @@ app.listen(port, function () {
 });
 
 
-app.get("/ajax_data", function(req, res) {
-    res.send(req.query.message);
+app.post("/ajax_data", function(req, res) {
+    res.send(req.body.message);
 })

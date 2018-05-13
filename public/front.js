@@ -2,7 +2,7 @@ $(document).ready(function () {
     $("#submit").click(function (event) {
         event.preventDefault(); //取消reload
         $.ajax({
-            method: "get",
+            method: "post",
             url: "./ajax_data",
             data: {
                 message: $("#send input[name=message]").val(),
